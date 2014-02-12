@@ -1,0 +1,59 @@
+#body{
+	font: Verdana 1em;
+	padding: 0px;
+}
+
+#container{
+	background:url(img/green_cup.png);
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 0px;
+	padding-top:20px;
+	padding-left:40px;
+	position: absolute;
+	min-height: 100%;
+    font-family: Arial;
+    color: #fff;
+}
+
+#fields{
+
+}
+ span{
+ 	text-align: left;
+ }
+
+.search{
+	width: 150px;
+}
+
+#inp{
+	display:inline-block;
+}
+
+.input{
+	margin: 20px;
+}
+
+#datepicker{
+	display:inline-block;
+	vertical-align: top;
+}
+
+
+
+.titleElement {
+	margin: 20px;
+}
+
+#calendar{
+	vertical-align: top;
+	margin:auto;
+	display:inline-block;
+	height: 200px;
+	color: #dcdcdc;
+	padding: 20px;
+	width:250px;
+	background: #ffffff;
+	border-radius: 15px;
+}

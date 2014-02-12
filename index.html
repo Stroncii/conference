@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<link href="css/ui-lightness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.js"></script>
+	<script type="text/javascript">
+   		$(function() {
+     	$("#datepicker").datepicker();
+   });
+</script>
+	<title>Reservation</title>
+</head>
+<body>
+	<div id="container">
+		<h1>Резервация зала для конференций</h1>
+			<div id="datepicker"></div>
+		<div id="inp">
+			<div id="fields">
+				<div class="input"><span class="titleElement">Введите Ваше имя		      </span><input type="text"  class="search" name="name"></div>
+				<div class="input"><span class="titleElement">Введите длительность резервации		      </span><input type="text" name="duration"></div>
+				<div class="input"><span class="titleElement">Введите начало резервации		      </span><input type="text" name="start_time"></div>
+			</div>
+			<div class="input">
+				<span class="titleElement">Повторяющаяся резервация?</span><input type="checkbox" value="Повторяющаяся резервация?" name="repeating">
+			</div>
+			<div class="input">
+				<span class="titleElement"></span><input type="button" value="Зарезервировать" name="reserv_button">	
+			</div>			
+			
+		</div>
+	</div>
+	
+</body>
+</html>
